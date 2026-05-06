@@ -103,22 +103,22 @@ public class Runner {
                 break;
         }
         //9
-        int a = 20;
-        int b = 5;
+        int a1 = 20;
+        int b1 = 5;
         char operator = '*';
 
         switch (operator) {
             case '+':
-                System.out.println(a + b);
+                System.out.println(a1 + b1);
                 break;
             case '-':
-                System.out.println(a - b);
+                System.out.println(a1 - b1);
                 break;
             case '*':
-                System.out.println(a * b);
+                System.out.println(a1 * b1);
                 break;
             case '/':
-                System.out.println(a / b);
+                System.out.println(a1 / b1);
                 break;
             default:
                 System.out.println("Неизвестная операция");
