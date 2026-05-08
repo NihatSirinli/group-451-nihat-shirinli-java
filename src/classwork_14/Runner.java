@@ -8,6 +8,9 @@ public class Runner {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите пароль.");
         String n = scanner.nextLine();
+        if(n.length() < 8) {
+        	System.out.println("Error");
+        }
         for(int a = 0;a < n.length();a++) {
         System.out.println(n.split("")[a]);
         }
