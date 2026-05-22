@@ -285,9 +285,7 @@ public class Runner {
 
 		        if (playerChoice == computerChoice) {
 		            System.out.println("Ничья!");
-		        } else if ((playerChoice == 1 && computerChoice == 2) ||
-		                   (playerChoice == 2 && computerChoice == 3) ||
-		                   (playerChoice == 3 && computerChoice == 1)) {
+		        } else if ((playerChoice == 1 && computerChoice == 2) || (playerChoice == 2 && computerChoice == 3) || (playerChoice == 3 && computerChoice == 1)) {
 		            System.out.println("Вы выиграли!");
 		        } else {
 		            System.out.println("Компьютер выиграл!");
