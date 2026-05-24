@@ -252,14 +252,16 @@ public class Runner {
     int current = numberr;
 
     do {
-        int sum = 0;
+        int summa = 0;
         while (current > 0) {
-            sum += current % 10;
+            summa += current % 10;
             current /= 10;
         }
-        current = sum;
+        current = summa;
     } while (current > 9);
 
     System.out.println("Цифровой корень числа " + numberr + " равен: " + current);
+    
+    
 }
 }
